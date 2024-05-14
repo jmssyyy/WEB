@@ -1,0 +1,93 @@
+body {
+    background: linear-gradient(90deg,gray,black);
+    margin: 0;
+    padding: 0;
+}
+.image {
+    max-width: 100%;
+    height: auto;
+    animation: fadeInLeft 2s ease;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.product-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* added this line */
+    flex-wrap: wrap;
+}
+
+.product-item {
+    flex: 1 0 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.product-items{
+    flex: 1 0 30%;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .product-item {
+        flex: 1 0 100%;
+    }
+}
+
+h1 a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+h1 a:hover {
+    color: gray;
+}
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.product-item p a {
+    text-decoration: none;
+    color: white;
+}
+.product-item p a:hover {
+    color: gray;
+}
+h1 a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    color: #fff;
+}
+
+footer h2 {
+    margin: 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ccc;
+}

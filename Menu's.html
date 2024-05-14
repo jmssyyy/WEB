@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Baba's offical website</title>
+    <link rel="icon" type="image" href="icon.jpg" > 
+    <link rel="stylesheet" href="stl.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        .product-grid {
+    
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+     padding: 20px;
+}
+    .product-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+        nav ul li {
+            display: inline-block;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 15px;
+        }
+        
+        .product-item img {
+            max-width: 100%;
+            height: auto;
+        }
+        .product-item h3 {
+            margin: 10px 0;
+            color: white;
+        }
+        .product-item p {
+            font-size: 16px;
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    
+    <main>
+        <section class="product-grid">
+            <!-- Product Item -->
+            <div class="product-item">
+                <img src="lumsilog.jpeg" alt="Product 1">
+                <h3>Lumpiasilog</h3>
+                <p>₱65</p>
+            </div>
+            <!-- Product Item -->
+            <div class="product-item">
+                <img src="hotsilog.jpg" alt="Product 2">
+                <h3>Hotsilog</h3>
+                <p>₱65</p>
+            </div>
+            <!-- Product Item -->
+            <div class="product-item">
+                <img src="silog.jpg" alt="Product 3">
+                <h3>longsilog</h3>
+                <p>₱75</p>
+            </div>
+            <!-- Product Item -->
+            <div class="product-item">
+                <img src="bb.webp" alt="Product 1">
+                <h3>Baconsilog</h3>
+                <p>₱75</p>
+            </div>
+            <!-- Product Item -->
+            <div class="product-item">
+                <img src="porksilog.jpg" alt="Product 2">
+                <h3>Porksilog</h3>
+                <p>₱75</p>
+            </div>
+            <!-- Product Item -->
+            <div class="product-item">
+                <img src="tapsilog.jpg" alt="Product 3">
+                <h3>Tapsilog</h3>
+                <p>₱90</p>
+            </div>
+           
+            <!-- Product Item -->
+        </section>
+        <div style="text-align: center;">
+            <h1><a href="Menu.html">Back</a></h1>
+        </div>
+    </main>
+    
+    
+   
+</body>
+</html>

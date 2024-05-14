@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(50deg,gray,black
+    );
+    margin: 0;
+    padding: 0;
+  }
+  
+  .product-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .product-item {
+    flex: 1 0 30%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .product-items{
+    flex: 1 0 30%;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  @media (max-width: 768px) {
+    .product-item {
+      flex: 1 0 100%;
+    }
+  }
+  
+  h1 a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  h1 a:hover {
+    color: gray;
+  }
